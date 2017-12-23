@@ -111,7 +111,7 @@ declare namespace facebook {
     }
 
     interface ShareDialogParams extends DialogParams {
-        method: 'share';
+        method?: 'share' | 'feed';
         href: string;
         picture?: string;
         hashtag?: string;
